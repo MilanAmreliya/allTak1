@@ -31,6 +31,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   await GetStorage.init();
+  //milan patel
   runApp(MyApp());
 }
 // home: ValidationScreen(),
