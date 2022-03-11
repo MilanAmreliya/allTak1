@@ -27,6 +27,7 @@ import 'otp_firebse/home_screen.dart';
 import 'otp_firebse/login_screen.dart';
 
 void main() async {
+  ///milna
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   await GetStorage.init();
